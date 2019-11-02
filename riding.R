@@ -34,8 +34,6 @@ p <- ggplot(hki) + geom_sf(alpha = 0.3, color = "slategray2") +
   geom_point(aes(y=60.1704507, x=24.9386955), colour="red", size = 1) 
 
 p <- p + geom_sf(data = riding, color = "brown", linetype = "dotdash") + 
-  ylab("Latitude") + 
-  xlab("Longitude") +
   theme(panel.grid.major = element_line(color = gray(.5), linetype = "dashed",
                                         size = 0.5), 
         panel.background = element_rect(fill = "aliceblue")) +
