@@ -42,7 +42,7 @@ p <- p + geom_sf(data = riding, color = "brown", linetype = "dotdash") +
   labs(x = NULL, y = NULL, 
        title = chart_title,
        subtitle = "The lonely dot is Helsinki Central Station",
-       caption = "Data source: Helsingin liikenneväylät\nhttps://hri.fi/data/dataset/helsingin-liikennevaylat")
+       caption = "Data sources: Helsingin liikenneväylät, Helsingin piirijako\nhttps://hri.fi/data/dataset/helsingin-liikennevaylat https://hri.fi/data/dataset/helsingin-piirijako")
 p
 
 ggsave(
