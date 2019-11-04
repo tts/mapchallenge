@@ -27,7 +27,7 @@ p <- ggplot(tilia, aes(x = X, y = Y)) +
        title = "Trees of the genus Tilia in Helsinki",
        subtitle = "The orange dot is Helsinki Central Station",
        caption = "Data source: Urban tree database of the City of Helsinki\nhttps://hri.fi/data/dataset/helsingin-kaupungin-puurekisteri",
-       fill = "Tilia (linden) trees")
+       fill = "Count")
 p
 
 ggsave(
