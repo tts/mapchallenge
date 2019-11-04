@@ -24,7 +24,7 @@ p <- ggplot(tilia, aes(x = X, y = Y)) +
   theme_void() + 
   theme(panel.grid = element_line(colour = "transparent")) +
   labs(x = NULL, y = NULL, 
-       title = "Trees of the genus Tilia in Helsinki",
+       title = "Trees of the Tilia family in Helsinki",
        subtitle = "The orange dot is Helsinki Central Station",
        caption = "Data source: Urban tree database of the City of Helsinki\nhttps://hri.fi/data/dataset/helsingin-kaupungin-puurekisteri",
        fill = "Count")
