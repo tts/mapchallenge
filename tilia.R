@@ -18,16 +18,16 @@ data_4326 <- data %>%
 data_4326_coord <- cbind(data_4326, st_coordinates(data_4326))
 tilia <- st_drop_geometry(data_4326_coord)
 
-
 p <- ggplot(tilia, aes(x = X, y = Y)) + 
   geom_hex() +
   geom_point(aes(y=60.1704507, x=24.9386955), colour="orange", size = 1) +
-  theme_minimal() +
+  theme_void() + 
   theme(panel.grid = element_line(colour = "transparent")) +
   labs(x = NULL, y = NULL, 
        title = "Trees of the genus Tilia in Helsinki",
        subtitle = "The orange dot is Helsinki Central Station",
-       caption = "Data source: Urban tree database of the City of Helsinki\nhttps://hri.fi/data/dataset/helsingin-kaupungin-puurekisteri")
+       caption = "Data source: Urban tree database of the City of Helsinki\nhttps://hri.fi/data/dataset/helsingin-kaupungin-puurekisteri",
+       fill = "Tilia (linden) trees")
 p
 
 ggsave(
