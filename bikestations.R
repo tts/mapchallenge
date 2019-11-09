@@ -13,16 +13,22 @@ stations_cleaned <- stations %>%
          y = Y) %>%
   select(x, y, name, id)
 
-st_sample <- stations_cleaned %>% 
+baana <- stations_cleaned %>% 
+  filter(name == "Baana")
+
+therest <- stations_cleaned %>% 
+  filter(name != "Baana")
+
+sample <- therest %>% 
   sample_n(30)
 
-p <- ggplot(data = stations_cleaned, 
+p <- ggplot(data = therest, 
             aes(x = x, y = y)) +
   geom_point(color = "#F5F008") +
-  geom_point(aes(y=60.1704507, x=24.9386955), colour="magenta", size = 2) 
+  geom_point(data = baana, aes(x = x, y = y), colour = "red")
 
 p + 
-  geom_text_repel(data = st_sample,
+  geom_text_repel(data = sample,
                   aes(label = name),
                   point.padding = 1,
                   color = "#666658") +
@@ -37,7 +43,7 @@ p +
         panel.background = element_rect(fill = "black", color  =  NA)) +
   labs(x = NULL, y = NULL, 
        title = "Helsinki city bike stations",
-       subtitle = "The magenta dot is Helsinki Central Station",
+       subtitle = "The red one is station Baana",
        caption = "Source: Helsinki Region Transport’s (HSL) city bicycle stations.\nhttps://hri.fi/data/fi/dataset/hsl-n-kaupunkipyoraasemat\nCreative Commons Attribution 4.0.\n") 
 
 ggsave(
