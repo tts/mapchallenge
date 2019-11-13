@@ -24,9 +24,9 @@ st <- as.data.frame(data[2]) %>%
 coast <- as.data.frame(data[3])
 
 ggplot(coast) +
-  geom_sf(size = 0.4, color = "lightblue") +
-  geom_sf(data = metro, size = 1, color = "#e67e22") +
-  geom_sf(data = st, size = 2, color = "black") +
+  geom_sf(aes(geometry = geometry), size = 0.4, color = "lightblue") +
+  geom_sf(data = metro, aes(geometry = geometry), size = 1, color = "#e67e22") +
+  geom_sf(data = st, aes(geometry = geometry), size = 2, color = "black") +
   geom_text_repel(data = st, 
                   aes(x = lon, y = lat, label = metroasema),
                   point.padding = 1,
