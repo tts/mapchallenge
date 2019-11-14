@@ -29,13 +29,13 @@ sample <- lakes %>%
   sample_n(30)
 
 ggplot(green) +
-  geom_sf(fill = "#52be80", color = "black") +
-  geom_sf(data = grey, fill = "#aeb6bf", color = "black") +
-  geom_sf(data = lakes, fill = "#3498db", color = "black") +
+  geom_sf(aes(geometry = geometry), fill = "#52be80", color = "black") +
+  geom_sf(data = grey, aes(geometry = geometry), fill = "#aeb6bf", color = "black") +
+  geom_sf(data = lakes, aes(geometry = geometry), fill = "#3498db", color = "black") +
   geom_label_repel(data = sample, 
-                  aes(x = lon, y = lat, label = vesisto_nimi_s),
-                  arrow = arrow(length = unit(0.03,"npc"), type = "closed", 
-                                ends = "last", angle = 15)) +
+                   aes(x = lon, y = lat, label = vesisto_nimi_s),
+                   arrow = arrow(length = unit(0.03,"npc"), type = "closed", 
+                                 ends = "last", angle = 15)) +
   theme_minimal() +
   theme(plot.title = element_text(size=22),
         legend.position = "none",
@@ -44,7 +44,7 @@ ggplot(green) +
         panel.grid.minor = element_blank(),
         panel.grid.major = element_line(colour = "transparent")) +
   labs(x = NULL, y = NULL, 
-       title = "Green, grey (built) and blue (lakes) boundaries in the Helsinki region",
+       title = "Green, grey (built) and blue (lakes) in the Helsinki region",
        caption = "Data: Helsinki region map\nhttps://hri.fi/data/dataset/seutukartta")
 
 ggsave(
