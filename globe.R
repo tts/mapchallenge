@@ -2,14 +2,14 @@ library(tidyverse)
 library(sf)
 library(rnaturalearth)
 
-#https://stackoverflow.com/a/43250903
-crs <- "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000
-        +datum=WGS84 +units=m +no_defs"
+# https://stackoverflow.com/a/43278961
+crs <- "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +datum=WGS84 +units=m +no_defs"
 
 ctrys50m <- ne_countries(scale = 50, type = "countries", returnclass = "sf") %>%
   select(iso_a3, iso_n3, admin)
 
-sphere <- st_graticule(st_transform(ctrys50m, crs = crs)) %>%
+sphere <- st_graticule(ndiscr = 10000, margin = 10e-6) %>%
+  st_transform(crs = crs) %>%
   st_convex_hull() %>%
   summarise(geometry = st_union(geometry))
 
