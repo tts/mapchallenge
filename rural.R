@@ -5,6 +5,11 @@ library(mapview)
 
 # Request data set from https://avaa.tdata.fi/web/paituli/latauspalvelu
 # Metadata https://etsin.fairdata.fi/dataset/5f008b3b-d693-48d8-bf0d-7e28de08e351
+#
+# Agency for Rural Affairs in Finland
+# CSC-IT Center for Science Ltd
+# urn:nbn:fi:csc-kata00001000000000000766
+# © OpenStreetMap contributors
 
 data <- st_read("mavi/peltolohkot/2016/plohko_cd_2016B_ESRI.shp", stringsAsFactors = FALSE)
 
