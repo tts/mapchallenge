@@ -1,7 +1,12 @@
 library(tidyverse)
 library(sf)
 
-# https://kartta.hel.fi/avoindata/Helsinki_liikennevaylat_avoin_data.zip
+url <-"https://kartta.hel.fi/avoindata/Helsinki_liikennevaylat_avoin_data.zip"
+temp <- tempfile()
+download.file(url, temp)
+unzip(zipfile = temp)
+unlink(temp)
+
 data <- st_read("Helsinki_liikennevaylat_avoin_data/Shape/Hki_liikennevaylat.shp", stringsAsFactors = FALSE)
 
 bridges <- data %>% 
