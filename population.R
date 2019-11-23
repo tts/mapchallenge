@@ -34,6 +34,13 @@ tm_shape(data) +
             bg.color = "grey85")
 
 tm_shape(data) +
+  tm_polygons("IKA30_39",
+              border.col = "white",
+              border.alpha = 0.4) +
+  tm_layout(main.title = "Age 30 to 39",
+            bg.color = "grey85")
+
+tm_shape(data) +
   tm_polygons("IKA60_69",
               border.col = "white",
               border.alpha = 0.4) +
