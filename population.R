@@ -14,11 +14,8 @@ data_long <- data %>%
   select(starts_with("IKA"), -geometry) %>% 
   gather(Age, Count, starts_with("IKA"))
 
-cuts <- c(0,100,200,300,Inf)
-
 tm_shape(data_long) +
   tm_polygons("Count",
-              breaks = cuts,
               border.col = "white", 
               border.alpha = 0.4) +
   tm_facets(by = "Age") +
@@ -34,14 +31,11 @@ tm_shape(data) +
               border.col = "white",
               border.alpha = 0.4) +
   tm_layout(main.title = "Children under age of 10",
-            bg.color = "grey85", legend.show = FALSE)
+            bg.color = "grey85")
 
 tm_shape(data) +
   tm_polygons("IKA60_69",
               border.col = "white",
               border.alpha = 0.4) +
   tm_layout(main.title = "Age 60 to 69",
-            bg.color = "grey85", legend.show = FALSE)
-
-
-
+            bg.color = "grey85")
