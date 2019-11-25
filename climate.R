@@ -43,4 +43,4 @@ map_with_tooltip <- map_with_legend %>% addPolygons(stroke = TRUE, color = "whit
                                                     label = tooltip)
 map_with_tooltip
 
-saveWidget(map_with_tooltip, file="Roofs on Kulosaari suitable for solar panels.html")
+saveWidget(map_with_tooltip, ”Kulosaari_solar.html")
