@@ -20,11 +20,6 @@ kulosaari_bbox <- c(ymin = 60.176500, ymax = 60.1918, xmin = 24.9899, xmax = 25.
 kulosaari <- st_crop(rawdata_4326, kulosaari_bbox) %>% 
   filter(areaSUM > 0)
 
-leaflet(kulosaari) %>% 
-  addTiles() %>% 
-  addPolygons(color = "orange", opacity = "0.7",
-              popup = kulosaari$areaSUM)
-
 # http://www.theanalyticslab.nl/polygon-plotting-in-r/
 cuts <- c(0, 5, 10, 100, 500, 1000, 2000, 2500)
 colorbins <- colorBin("YlOrRd", domain = kulosaari$areaSUM, bins = cuts)
