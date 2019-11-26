@@ -25,7 +25,7 @@ ggplot() +
   geom_sf(data = waters, color = "#AED6F1", alpha = 0.8) +
   geom_sf(data = vantaa, fill = "#D0ECE7", color = "grey96", alpha = 0.3) +
   theme_void() +
-  theme(plot.title = element_text(size = 12*3, color = "#AED6F1")) +
+  theme(plot.title = element_text(size = 12*3, color = "grey50")) +
   labs(x = NULL, y = NULL, 
        title = "Vantaa river watershed & Helsinki region waters",
        caption = "Helsinki Region Map | Metropolitan area land cover | SYKE VALUE") 
