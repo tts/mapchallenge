@@ -79,7 +79,7 @@ data <- data2010_2018 %>%
   mutate(limit = ifelse(as.numeric(NO2) >= 40, 1, 0))
 
 p <- ggplot(data, aes(size = 2, color = as.factor(limit), alpha = 0.7)) +
-  #annotation_map_tile(zoom = 10, type = "stamenwatercolor") +
+  annotation_map_tile(zoom = 10, type = "stamenwatercolor") +
   geom_sf() +
   theme_void() +
   theme(legend.position = "none",
