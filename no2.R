@@ -88,7 +88,7 @@ p <- ggplot(data, aes(size = 2, color = as.factor(limit), alpha = 0.7)) +
         plot.caption = element_text(size = 12*0.5, color = "#BDBDBD")) +
   scale_color_manual(values = c("bisque4", "red")) +
   labs(x = NULL, y = NULL,
-       title = "Nitrogen dioxide values under (grey) and over (red) the norm",
+       title = "Nitrogen dioxide levels under (grey) and over (red) the norm",
        subtitle = "The norm is max 40 µg/m3/year",
        caption = "Data: HSY CC 4.0 BY https://www.hsy.fi/fi/asiantuntijalle/avoindata/Sivut/AvoinData.aspx?dataID=59")
 
