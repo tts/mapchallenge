@@ -29,7 +29,6 @@ Code for my 30DayMapChallenge maps, see [this tweet by Topi Tjukanov](https://tw
 * Day 25: [Climate](https://t.co/k6rkeKbars)
 * Day 26: [Hydrology](https://t.co/boVfpTYLUt)
 * Day 27: [Resources](https://t.co/etVEr96alA)
-* Day 28: [Funny] (https://t.co/2CKDhHVu14)
+* Day 28: [Funny](https://t.co/2CKDhHVu14)
 * Day 29: [Experiment](https://t.co/2NUTUvy1Gx)
-* Day 30: [Home]()
-
+* Day 30: [Home](https://github.com/tts/mapchallenge/blob/master/home.R)
