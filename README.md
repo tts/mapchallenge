@@ -1,6 +1,6 @@
 # mapchallenge
 
-Code for my 30DayMapChallenge maps, see [this tweet by Topi Tjukanov](https://twitter.com/tjukanov/status/1187713840550744066) 
+Links to code/sites for my 30DayMapChallenge maps in November 2019, see [Topi Tjukanov's tweet](https://twitter.com/tjukanov/status/1187713840550744066) 
 
 * Day 1: [Points](https://t.co/LYVIH5etTb)
 * Day 2: [Lines](https://t.co/fg4zUm1CQJ)
