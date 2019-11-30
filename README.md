@@ -2,34 +2,34 @@
 
 Code for my 30DayMapChallenge maps, see [this tweet by Topi Tjukanov](https://twitter.com/tjukanov/status/1187713840550744066) 
 
-* Day 1:
-* Day 2:
-* Day 3:
-* Day 4:
-* Day 5:
-* Day 6:
-* Day 7:
-* Day 8:
-* Day 9:
-* Day 10:
-* Day 11:
-* Day 12:
-* Day 13:
-* Day 14:
-* Day 15:
-* Day 16:
-* Day 17:
-* Day 18:
-* Day 19:
-* Day 20:
-* Day 21:
-* Day 22:
-* Day 23:
-* Day 24:
-* Day 25:
-* Day 26:
-* Day 27:
-* Day 28: [Funny] (biking.html)
+* Day 1: [Points](https://t.co/LYVIH5etTb)
+* Day 2: [Lines](https://t.co/fg4zUm1CQJ)
+* Day 3: [Polygons](https://t.co/sXYFBQENkS)
+* Day 4: [Hexagons](https://t.co/J9dfnVEEYw)
+* Day 5: [Raster](https://t.co/hbOjIJ5Fq1)
+* Day 6: [Blue](https://t.co/U6CpY6dpl3)
+* Day 7: [Red](https://t.co/YG6q6cFNUR)
+* Day 8: [Green](https://t.co/WGNXCDNG9p)
+* Day 9: [Yellow](https://t.co/lycv5FgdhA)
+* Day 10: [Black and white](https://t.co/i4rBDDnjSb)
+* Day 11: [Elevation](https://t.co/4HwNBNuU5s)
+* Day 12: [Movement](https://t.co/m7una9jUaX)
+* Day 13: [Tracks](https://t.co/cEl1euhAAB)
+* Day 14: [Boundaries](https://t.co/pPexMD8Dhm)
+* Day 15: [Names](https://t.co/gMbumlfaE7)
+* Day 16: [Places](https://t.co/7EvRjOEMcW)
+* Day 17: [Zones](https://t.co/7iZeOHJEBk)
+* Day 18: [Globe](https://t.co/Ld3Jl9QPCI)
+* Day 19: [Urban](https://t.co/MNgwwGS0k1)
+* Day 20: [Rural](https://t.co/rjCPqunNQ8)
+* Day 21: [Environment](https://t.co/81BSe7uPOc)
+* Day 22: [Built environment](https://t.co/69VCfVZIju)
+* Day 23: [Population](https://t.co/gzu0Dncmk1)
+* Day 24: [Statistics](https://t.co/xAEoZYBOSG)
+* Day 25: [Climate](https://t.co/k6rkeKbars)
+* Day 26: [Hydrology](https://t.co/boVfpTYLUt)
+* Day 27: [Resources](https://t.co/etVEr96alA)
+* Day 28: [Funny] (https://t.co/2CKDhHVu14)
 * Day 29: [Experiment](https://t.co/2NUTUvy1Gx)
-* Day 30:
+* Day 30: [Home]()
 
