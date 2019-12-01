@@ -5,7 +5,7 @@ library(lubridate)
 
 aprildata <- "http://dev.hsl.fi/citybikes/od-trips-2019/2019-04.csv"
 temp <- tempfile()
-download.file(maydata, temp)
+download.file(aprildata, temp)
 data <- read_csv(temp)
 unlink(temp)
 
