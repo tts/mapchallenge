@@ -6,7 +6,7 @@ Links to code/sites for my 30DayMapChallenge maps in November 2019, see [Topi Tj
 * Day 2: [Lines](https://t.co/fg4zUm1CQJ)
 * Day 3: [Polygons](https://t.co/sXYFBQENkS)
 * Day 4: [Hexagons](https://t.co/J9dfnVEEYw)
-* Day 5: [Raster](https://t.co/hbOjIJ5Fq1)
+* Day 5: [Raster](https://t.co/eTiOIJj6xw)
 * Day 6: [Blue](https://t.co/U6CpY6dpl3)
 * Day 7: [Red](https://t.co/YG6q6cFNUR)
 * Day 8: [Green](https://t.co/WGNXCDNG9p)
