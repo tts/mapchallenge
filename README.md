@@ -2,7 +2,7 @@
 
 Links to code/sites for my 30DayMapChallenge maps in November 2019, see [Topi Tjukanov's tweet](https://twitter.com/tjukanov/status/1187713840550744066) 
 
-* Day 1: [Points](https://t.co/LYVIH5etTb)
+* Day 1: [Points](https://github.com/tts/mapchallenge/blob/master/scooters.R)
 * Day 2: [Lines](https://t.co/fg4zUm1CQJ)
 * Day 3: [Polygons](https://t.co/sXYFBQENkS)
 * Day 4: [Hexagons](https://t.co/J9dfnVEEYw)
